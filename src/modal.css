@@ -1,0 +1,56 @@
+.modal-size{
+top: 25%;
+left: 24%;
+height: 65%;
+width: 40%;
+position: absolute;
+border: 1px solid rgb(204, 204, 204);
+background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+border-radius: 4px;
+outline: medium none currentcolor;
+}
+
+.modal-header{
+background-color: #563d7c;
+height: 13%;
+margin: 0%;
+}
+
+.modal-datepicker-header-padding
+{
+	display:flex;
+	padding-top: 1em;
+}
+
+.modal-comment
+{
+	padding-top: 2%;
+}
+.modal-header-close
+{
+float: right;
+font-size: 1.2rem;
+font-weight: 144;
+line-height: 1;
+color: #fff;
+text-shadow: 0 0px 0 #fff;
+opacity: 0.9;
+}
+
+.modal-content-padding{
+	padding:5%;
+	color:black;
+}
+
+.modal-expenseName-text{
+	color:black;
+}
+
+.modal-dollar-sign{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.react-datepicker__input-container > input{
+	width:90%;
+}

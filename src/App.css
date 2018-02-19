@@ -11,6 +11,30 @@ padding-bottom: 1em;
 font-size:1.2em; 
 }
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.btn-addExpense 
+{
+    color: #fff;
+    background-color: #563d7c;
+    border-color: #563d7c; /*set the color you want here*/
+}
+.btn-addExpense:hover, .btn-addExpense:focus, .btn-addExpense:active, .btn-addExpense.active, .open>.dropdown-toggle.btn-addExpense {
+    color: #fff;
+    background-color: #563d7c;
+    border-color: #563d7c; /*set the color you want here*/
+}
+.tiles-margin{
+  margin:8%;
+  background-color: #eff0f1;
+}
+
+.tiles-padding{
+  padding: 2%;
+}
+
 .index img {
   margin: 40px auto;
   border-radius: 4px;
