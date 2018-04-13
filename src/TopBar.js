@@ -4,9 +4,9 @@ class TopBar extends React.Component {
   render() {
     return (
       <div>
-      <div className="row topbar">
-      <div className="col-md-1"></div>
-      <div className="col-md-3">Expense Calculator</div>
+      <div className="col-lg-12 topbar">
+      <div className="col-lg-1"></div>
+      <div className="col-lg-3">Expense Calculator</div>
       </div>
       </div>
     );
