@@ -40,6 +40,7 @@ opacity: 0.9;
 .modal-content-padding{
 	padding:5%;
 	color:black;
+	overflow-y:auto;
 }
 
 .modal-expenseName-text{
